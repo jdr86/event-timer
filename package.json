@@ -1,0 +1,26 @@
+{
+    "name": "fare-estimator",
+    "version": "2.0.0",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "export": "next build && next export",
+        "postbuild": "next-sitemap --config next-sitemap.config.js"
+    },
+    "dependencies": {
+        "@capacitor/cli": "^2.4.6",
+        "@capacitor/core": "^2.4.6",
+        "next": "^10.0.5",
+        "npm": "^6.14.11",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+        "next-sitemap": "^1.4.17",
+        "autoprefixer": "10.0.2",
+        "postcss": "8.1.7",
+        "tailwindcss": "^2.0.2"
+    },
+    "license": "MIT"
+}
